@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="TMBSProtocolVersion" security_no="$(security)" module_id="$(moduleid)">
+<REQ id="$(id)" name="get_verification_code">
+<PHONENO>$(phoneno)</PHONENO>
+<OPERATECODE>$(operatecode)</OPERATECODE>
+<TIANTONGNO>$(tiantongno)</TIANTONGNO>
+<CODE>$(code)</CODE>
+<RANDOMCODE>$(codeid)</RANDOMCODE>
+</REQ>
+</TPME>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TPME version="1.0" security_no="$(security)" module_id="$(moduleid)">
+    <REQ id="$(id)" name="msg_classified_list">
+        <THNO>$(thno)</THNO>
+    </REQ>
+</TPME>

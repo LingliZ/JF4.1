@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="1.0">
+    <REQ id="$(id)" name="warehousefee_query">
+        <USER_ID>$(user_id)</USER_ID>
+        <SESSION_ID>$(session_id)</SESSION_ID>
+        <S_NA>$(s_na)</S_NA>
+        <FLAG>$(flag)</FLAG>
+        <APP_S_TIME>$(app_s_time)</APP_S_TIME>
+        <APP_E_TIME>$(app_e_time)</APP_E_TIME>
+    </REQ>
+</TPME>

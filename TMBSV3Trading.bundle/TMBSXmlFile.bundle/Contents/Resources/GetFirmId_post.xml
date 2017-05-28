@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <TPME version="TMBSProtocolVersion">
+  <REQ id="$(id)" name="other_firm_query">
+   <USER_ID>$(userid)</USER_ID>
+   <IS_D>1</IS_D>
+   <SESSION_ID>$(sid)</SESSION_ID>
+  </REQ>
+ </TPME>

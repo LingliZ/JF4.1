@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="1.0">
+    <REQ id="$(id)" name="settlement_payment_invoice_apply">
+        <USER_ID>$(user_id)</USER_ID>
+        <SESSION_ID>$(session_id)</SESSION_ID>
+        <IN_ID>$(in_id)</IN_ID>
+        <SEN_ID>$(sen_id)</SEN_ID>
+        <APP_ID_LIST>$(app_id_list)</APP_ID_LIST>
+    </REQ>
+</TPME>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+	<TPME version="TMBSProtocolVersion">
+		<REQ id="$(id)" name="notice_list_query">
+<USER_ID>$(login_id)</USER_ID>
+<SESSION_ID>$(sid)</SESSION_ID>
+<EFFECTIVE>$(effective)</EFFECTIVE>
+<TYPE>$(type)</TYPE>
+<ST>$(stime)</ST>
+<ET>$(etime)</ET>
+<EXPIRE_ST>$(e_st)</EXPIRE_ST >
+<EXPIRE_ET>$(e_et)</EXPIRE_ET >
+<TITLE>$(title)</TITLE>
+<STARTNUM>$(start_num)</STARTNUM>
+<RECCNT></RECCNT>
+<SORTFLD></SORTFLD>
+<ISDESC></ISDESC>
+		</REQ>
+	</TPME>

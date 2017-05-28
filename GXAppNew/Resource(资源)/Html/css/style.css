@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body,
+html {
+  font-family: Helvetica, "Microsoft Yahei", "Heiti SC", "Droid Sans", "Droidsansfallback", SimSun, sans-serif;
+}
+body {
+  background: #262834;
+}
+.container {
+  overflow-y: auto;
+  position: relative;
+  background: #262834;
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  cursor: pointer;
+  color: #fff;
+}
+.container .clear {
+  clear: both;
+}
+.container .title {
+  background: #262834;
+  position: fixed;
+  width: 100%;
+  max-width: 640px;
+  box-sizing: border-box;
+  top: 0;
+  height: 1.8rem;
+  line-height: 1.8rem;
+  padding: 0 .5rem;
+  color: #fff;
+  text-align: left;
+}
+.container .title .main-title {
+  display: inline;
+  float: left;
+  margin-right: .6rem;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+.container .title .sec-title {
+  display: inline-block;
+  margin-top: .2rem;
+  float: left;
+  font-size: 1rem;
+}
+.container .txt {
+  margin-top: 1.8rem;
+  margin-left: .5rem;
+  margin-right: .5rem;
+  margin-bottom: .5rem;
+  color: #ccc;
+  font-size: .8rem;
+}
+.container .txt p {
+  margin-bottom: .3rem;
+  line-height: 180%;
+}

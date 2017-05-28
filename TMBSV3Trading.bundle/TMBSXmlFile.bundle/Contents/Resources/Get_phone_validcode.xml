@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="1.0">
+    <REQ id="$(id)" name="get_phone_validcode">
+        <PHONE>$(phone)</PHONE>
+        <USER_ID>$(userid)</USER_ID>
+        <PAPERSCODE>$(paperscode)</PAPERSCODE>
+        <TYPE>$(type)</TYPE>
+        <MobileOrPc>M</MobileOrPc>
+    </REQ>
+</TPME>

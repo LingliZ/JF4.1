@@ -1,0 +1,32 @@
+<TPME version="1.0">
+    <REP retcode="1" message="查询成功！" name="get_environmental_link">
+        <RESULTLIST>
+            <P_SYSTEM_VERSION versionid="V2" versionname="老系统">
+                <P_SYSTEM_ENVIRONMENT id="1" name="实盘环境" verify="1" quotationMarketID="103" quotationDefault="1" environmentType="">
+                    <P_SYSTEM_ENVIRONMENT_LINK id="1" linkname="默认链路" isdefault="1" urltrade="http://mtradeweb.bloomplus.net:10808/mtradeweb/httpTradeServlet" urlfund="http://mtradeweb.bloomplus.net:10808/mtradeweb/httpMoneyServlet" urlnotice="http://mtradeweb.bloomplus.net:10808/mtradeweb/httpReportServlet" urlsettle="http://mtradeweb.bloomplus.net:10808/mtradeweb/httpTradeServlet" urlsettle_notice="" />
+                </P_SYSTEM_ENVIRONMENT>
+                <P_SYSTEM_ENVIRONMENT id="2" name="模拟环境" verify="0" quotationMarketID="102" quotationDefault="0" environmentType="">
+                    <P_SYSTEM_ENVIRONMENT_LINK id="2" linkname="默认链路" isdefault="1" urltrade="http://vmtradeweb.bloomplus.net:10808/mtradeweb/httpTradeServlet" urlfund="http://vmtradeweb.bloomplus.net:10808/mtradeweb/httpMoneyServlet" urlnotice="http://vmtradeweb.bloomplus.net:10808/mtradeweb/httpReportServlet" urlsettle="http://vmtradeweb.bloomplus.net:10808/mtradeweb/httpTradeServlet" urlsettle_notice="" />
+                </P_SYSTEM_ENVIRONMENT>
+            </P_SYSTEM_VERSION>
+            <P_SYSTEM_VERSION versionid="V3" versionname="新系统">
+                <P_SYSTEM_ENVIRONMENT id="1" name="实盘环境" verify="1" quotationMarketID="103" quotationDefault="1" environmentType="">
+                    <P_SYSTEM_ENVIRONMENT_LINK id="27" linkname="默认安全链路" isdefault="1" urltrade="https://trade.tjpme.com:443/tradeweb/httpXmlServlet" urlfund="https://trade.tjpme.com:443/tradeweb/httpMoneyServlet" urlnotice="https://trade.tjpme.com:443/tradeweb/httpReportServlet" urlsettle="https://trade.tjpme.com:443/tradeweb/httpTradeServlet" urlsettle_notice="" />
+                    <P_SYSTEM_ENVIRONMENT_LINK id="28" linkname="电信安全链路一" isdefault="0" urltrade="https://trade1.tjpme.com:443/tradeweb/httpXmlServlet" urlfund="https://trade1.tjpme.com:443/tradeweb/httpMoneyServlet" urlnotice="https://trade1.tjpme.com:443/tradeweb/httpReportServlet" urlsettle="https://trade1.tjpme.com:443/tradeweb/httpTradeServlet" urlsettle_notice="" />
+                    <P_SYSTEM_ENVIRONMENT_LINK id="29" linkname="电信安全链路二" isdefault="0" urltrade="https://trade1.tjpme.com:8444/tradeweb/httpXmlServlet" urlfund="https://trade1.tjpme.com:8444/tradeweb/httpMoneyServlet" urlnotice="https://trade1.tjpme.com:8444/tradeweb/httpReportServlet" urlsettle="https://trade1.tjpme.com:8444/tradeweb/httpTradeServlet" urlsettle_notice="" />
+                    <P_SYSTEM_ENVIRONMENT_LINK id="30" linkname="电信安全链路三" isdefault="0" urltrade="https://trade3.tjpme.com:443/tradeweb/httpXmlServlet" urlfund="https://trade3.tjpme.com:443/tradeweb/httpMoneyServlet" urlnotice="https://trade3.tjpme.com:443/tradeweb/httpReportServlet" urlsettle="https://trade3.tjpme.com:443/tradeweb/httpTradeServlet" urlsettle_notice="" />
+                    <P_SYSTEM_ENVIRONMENT_LINK id="31" linkname="联通安全链路一" isdefault="0" urltrade="https://trade2.tjpme.com:443/tradeweb/httpXmlServlet" urlfund="https://trade2.tjpme.com:443/tradeweb/httpMoneyServlet" urlnotice="https://trade2.tjpme.com:443/tradeweb/httpReportServlet" urlsettle="https://trade2.tjpme.com:443/tradeweb/httpTradeServlet" urlsettle_notice="" />
+                    <P_SYSTEM_ENVIRONMENT_LINK id="32" linkname="联通安全链路二" isdefault="0" urltrade="https://trade2.tjpme.com:8444/tradeweb/httpXmlServlet" urlfund="https://trade2.tjpme.com:8444/tradeweb/httpMoneyServlet" urlnotice="https://trade2.tjpme.com:8444/tradeweb/httpReportServlet" urlsettle="https://trade2.tjpme.com:8444/tradeweb/httpTradeServlet" urlsettle_notice="" />
+                    <P_SYSTEM_ENVIRONMENT_LINK id="33" linkname="联通安全链路三" isdefault="0" urltrade="https://trade4.tjpme.com:443/tradeweb/httpXmlServlet" urlfund="https://trade4.tjpme.com:443/tradeweb/httpMoneyServlet" urlnotice="https://trade4.tjpme.com:443/tradeweb/httpReportServlet" urlsettle="https://trade4.tjpme.com:443/tradeweb/httpTradeServlet" urlsettle_notice="" />
+                    <P_SYSTEM_ENVIRONMENT_LINK id="44" linkname="铁通链路一" isdefault="0" urltrade="https://trade5.tjpme.com:443/tradeweb/httpXmlServlet" urlfund="https://trade5.tjpme.com:443/tradeweb/httpMoneyServlet" urlnotice="https://trade5.tjpme.com:443/tradeweb/httpReportServlet" urlsettle="https://trade5.tjpme.com:443/tradeweb/httpTradeServlet" urlsettle_notice="" />
+                    <P_SYSTEM_ENVIRONMENT_LINK id="45" linkname="铁通链路二" isdefault="0" urltrade="https://trade5.tjpme.com:8444/tradeweb/httpXmlServlet" urlfund="https://trade5.tjpme.com:8444/tradeweb/httpMoneyServlet" urlnotice="https://trade5.tjpme.com:8444/tradeweb/httpReportServlet" urlsettle="https://trade5.tjpme.com:8444/tradeweb/httpTradeServlet" urlsettle_notice="" />
+                </P_SYSTEM_ENVIRONMENT>
+                <P_SYSTEM_ENVIRONMENT id="2" name="模拟环境" verify="0" quotationMarketID="102" quotationDefault="0" environmentType="">
+                    <P_SYSTEM_ENVIRONMENT_LINK id="24" linkname="默认安全链路" isdefault="1" urltrade="https://vtrade.tjpme.com:8444/tradeweb/httpXmlServlet" urlfund="https://vtrade.tjpme.com:8444/tradeweb/httpMoneyServlet" urlnotice="https://vtrade.tjpme.com:8444/tradeweb/httpReportServlet" urlsettle="https://vtrade.tjpme.com:8444/tradeweb/httpTradeServlet" urlsettle_notice="" />
+                    <P_SYSTEM_ENVIRONMENT_LINK id="25" linkname="电信安全链路一" isdefault="0" urltrade="https://vtrade1.tjpme.com:8444/tradeweb/httpXmlServlet" urlfund="https://vtrade1.tjpme.com:8444/tradeweb/httpMoneyServlet" urlnotice="https://vtrade1.tjpme.com:8444/tradeweb/httpReportServlet" urlsettle="https://vtrade1.tjpme.com:8444/tradeweb/httpTradeServlet" urlsettle_notice="" />
+                    <P_SYSTEM_ENVIRONMENT_LINK id="26" linkname="联通安全链路一" isdefault="0" urltrade="https://vtrade2.tjpme.com:8444/tradeweb/httpXmlServlet" urlfund="https://vtrade2.tjpme.com:8444/tradeweb/httpMoneyServlet" urlnotice="https://vtrade2.tjpme.com:8444/tradeweb/httpReportServlet" urlsettle="https://vtrade2.tjpme.com:8444/tradeweb/httpTradeServlet" urlsettle_notice="" />
+                </P_SYSTEM_ENVIRONMENT>
+            </P_SYSTEM_VERSION>
+        </RESULTLIST>
+    </REP>
+</TPME>

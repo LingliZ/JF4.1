@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="k1I-LM-kga" customClass="GXMine_HeadView_noLogin">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="230"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="accountDetailHeadImg" translatesAutoresizingMaskIntoConstraints="NO" id="P7c-d3-hDq">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="230"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MpX-Sl-eQ7">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="230"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mine_head_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="KFa-Y5-sfg">
+                    <rect key="frame" x="144" y="71" width="87" height="87"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="87" id="A47-Xt-5qK"/>
+                        <constraint firstAttribute="width" constant="87" id="L1R-zW-EjO"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JsH-GD-rNi">
+                    <rect key="frame" x="87.5" y="158" width="200" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="M1f-cG-1N0"/>
+                        <constraint firstAttribute="height" constant="40" id="p0N-hL-pIQ"/>
+                    </constraints>
+                    <state key="normal" title="点此登录"/>
+                    <connections>
+                        <action selector="btnClick:" destination="k1I-LM-kga" eventType="touchUpInside" id="y83-yQ-e8l"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="JsH-GD-rNi" firstAttribute="top" secondItem="KFa-Y5-sfg" secondAttribute="bottom" id="9yV-95-Vuf"/>
+                <constraint firstItem="KFa-Y5-sfg" firstAttribute="centerY" secondItem="k1I-LM-kga" secondAttribute="centerY" id="F3O-R0-esI"/>
+                <constraint firstAttribute="trailing" secondItem="MpX-Sl-eQ7" secondAttribute="trailing" id="Fw8-yw-9JW"/>
+                <constraint firstItem="P7c-d3-hDq" firstAttribute="top" secondItem="k1I-LM-kga" secondAttribute="top" id="K0L-hB-Qbo"/>
+                <constraint firstItem="MpX-Sl-eQ7" firstAttribute="top" secondItem="k1I-LM-kga" secondAttribute="top" id="K3Z-4a-pxX"/>
+                <constraint firstAttribute="bottom" secondItem="MpX-Sl-eQ7" secondAttribute="bottom" id="LsM-hN-NLs"/>
+                <constraint firstItem="P7c-d3-hDq" firstAttribute="leading" secondItem="k1I-LM-kga" secondAttribute="leading" id="SeQ-7A-99y"/>
+                <constraint firstAttribute="bottom" secondItem="P7c-d3-hDq" secondAttribute="bottom" id="aAe-z7-3V7"/>
+                <constraint firstItem="KFa-Y5-sfg" firstAttribute="centerX" secondItem="k1I-LM-kga" secondAttribute="centerX" id="d1b-YZ-YhO"/>
+                <constraint firstItem="JsH-GD-rNi" firstAttribute="centerX" secondItem="k1I-LM-kga" secondAttribute="centerX" id="tOB-I3-7Zw"/>
+                <constraint firstAttribute="trailing" secondItem="P7c-d3-hDq" secondAttribute="trailing" id="w5a-pV-Psv"/>
+                <constraint firstItem="MpX-Sl-eQ7" firstAttribute="leading" secondItem="k1I-LM-kga" secondAttribute="leading" id="yUc-kc-po7"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btn_login" destination="JsH-GD-rNi" id="keD-Wq-3QR"/>
+            </connections>
+            <point key="canvasLocation" x="-95.5" y="-222"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="accountDetailHeadImg" width="360" height="206"/>
+        <image name="mine_head_placeholder" width="70" height="70"/>
+    </resources>
+</document>

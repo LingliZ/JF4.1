@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="TMBSProtocolVersion" security_no="$(security)" module_id="$(moduleid)">
+<REQ id="$(id)" name="change_headpic">
+<TIANTONGNO>$(tiantongno)</TIANTONGNO>
+<HEADPICL>$(headpicl)</HEADPICL>
+<HEADPICS>$(headpics)</HEADPICS>
+<SESSIONID>$(sessionid)</SESSIONID>
+</REQ>
+</TPME>

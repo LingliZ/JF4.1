@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Title" rowHeight="40" id="KGk-i7-Jjw" customClass="GXPriceListAddCodeTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="39.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZT5-XD-6p8">
+                        <rect key="frame" x="15" y="9" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RVn-uk-VNc">
+                        <rect key="frame" x="0.0" y="38" width="320" height="1"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="Rnz-lq-aMb"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t8A-fi-qAd">
+                        <rect key="frame" x="251" y="0.0" width="69" height="39"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="69" id="P5K-Lx-8Q9"/>
+                        </constraints>
+                        <state key="normal" image="priceListNavBtn"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="t8A-fi-qAd" secondAttribute="trailing" constant="-8" id="2ht-72-3Gm"/>
+                    <constraint firstItem="t8A-fi-qAd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="FYe-NU-62I"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="RVn-uk-VNc" secondAttribute="bottom" constant="-7.5" id="Hpw-d8-7k7"/>
+                    <constraint firstItem="ZT5-XD-6p8" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Pwu-mN-1fj"/>
+                    <constraint firstItem="RVn-uk-VNc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-8" id="R1R-jU-Wu1"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="RVn-uk-VNc" secondAttribute="trailing" constant="-8" id="b2o-1v-ADY"/>
+                    <constraint firstItem="ZT5-XD-6p8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="7" id="lte-FB-8C6"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="t8A-fi-qAd" secondAttribute="bottom" constant="-7.5" id="pgh-Op-YPj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lineImg" destination="RVn-uk-VNc" id="cYI-Ph-XXm"/>
+                <outlet property="titBtn" destination="t8A-fi-qAd" id="6Af-YQ-5VX"/>
+                <outlet property="title" destination="ZT5-XD-6p8" id="9pb-z1-2Oh"/>
+            </connections>
+            <point key="canvasLocation" x="47" y="-10"/>
+        </tableViewCell>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="priceList" rowHeight="50" id="Zmz-54-x2k" customClass="GXPriceListAddCodeTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Zmz-54-x2k" id="lrd-Lh-oNl">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="49.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vli-k3-ht6">
+                        <rect key="frame" x="15" y="14" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QGg-Et-Aag">
+                        <rect key="frame" x="251" y="0.0" width="69" height="49"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="69" id="rMH-ma-XEM"/>
+                        </constraints>
+                        <connections>
+                            <action selector="btn_addClick:" destination="Zmz-54-x2k" eventType="touchUpInside" id="Xb1-3V-Vgm"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12.1222" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bgh-DV-mME" customClass="GXTextSpaceLabel">
+                        <rect key="frame" x="138" y="13" width="80" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="0Ak-YA-BOP"/>
+                            <constraint firstAttribute="height" constant="24" id="Qd3-zH-2hz"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Bgh-DV-mME" firstAttribute="trailing" secondItem="lrd-Lh-oNl" secondAttribute="trailing" multiplier="0.65" constant="10" id="4rx-Gk-lJn"/>
+                    <constraint firstItem="vli-k3-ht6" firstAttribute="leading" secondItem="lrd-Lh-oNl" secondAttribute="leadingMargin" constant="7" id="5tf-Tw-qVm"/>
+                    <constraint firstItem="Bgh-DV-mME" firstAttribute="centerY" secondItem="lrd-Lh-oNl" secondAttribute="centerY" id="HHX-Pv-xwA"/>
+                    <constraint firstItem="vli-k3-ht6" firstAttribute="centerY" secondItem="lrd-Lh-oNl" secondAttribute="centerY" id="mqy-Yg-5L8"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="QGg-Et-Aag" secondAttribute="bottom" constant="-8" id="oZt-vP-YxB"/>
+                    <constraint firstItem="QGg-Et-Aag" firstAttribute="top" secondItem="lrd-Lh-oNl" secondAttribute="topMargin" constant="-8" id="qMq-sW-lX8"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="QGg-Et-Aag" secondAttribute="trailing" constant="-8" id="roD-3X-xeD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btn_add" destination="QGg-Et-Aag" id="hB3-6a-oub"/>
+                <outlet property="lb_last" destination="Bgh-DV-mME" id="mPj-x8-Ea1"/>
+                <outlet property="name" destination="vli-k3-ht6" id="rGa-9m-n4h"/>
+            </connections>
+            <point key="canvasLocation" x="47" y="107"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="priceListNavBtn" width="22" height="21"/>
+    </resources>
+</document>

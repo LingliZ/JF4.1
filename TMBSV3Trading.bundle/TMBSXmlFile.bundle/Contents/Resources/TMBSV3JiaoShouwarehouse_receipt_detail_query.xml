@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="1.0">
+    <REQ id="$(id)" name="warehouse_receipt_detail_query">
+        <USER_ID>$(user_id)</USER_ID>
+        <SESSION_ID>$(session_id)</SESSION_ID>
+        <RECEIPT_ID>$(receipt_id)</RECEIPT_ID>
+    </REQ>
+</TPME>

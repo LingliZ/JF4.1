@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="1.0">
+    <REQ id="$(id)" name="settlement_apply">
+        <USER_ID>$(user_id)</USER_ID>
+        <SESSION_ID>$(session_id)</SESSION_ID>
+        <LISTING_ID>$(listing_id)</LISTING_ID>
+        <STORAGE_ID>$(storage_id)</STORAGE_ID>
+        <BRAND>$(brand)</BRAND>
+        <NUM>$(num)</NUM>
+        <BS_FLAG>$(bs_flag)</BS_FLAG>
+        <OO_FLAG>$(oo_flag)</OO_FLAG>
+        <TYPE>$(type)</TYPE>
+        <ORDER_PRICE>$(order_price)</ORDER_PRICE>
+        <DOT_DIFF>$(dot_diff)</DOT_DIFF>
+        <CONTRACT_NAME>$(contract_name)</CONTRACT_NAME>
+        <CONTRACT_PHONE>$(contract_phone)</CONTRACT_PHONE>
+        <CONTRACT_CARD>$(contract_card)</CONTRACT_CARD>
+        <OC_FLAG>$(oc_flag)</OC_FLAG>
+        <CLOSEMODE>$(closemode)</CLOSEMODE>
+        <SPECHOLDNO>$(specholdno)</SPECHOLDNO>
+    </REQ>
+</TPME>

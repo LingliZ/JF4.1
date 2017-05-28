@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>天津贵金属交易所</key>
+		<array>
+			<string>白银</string>
+			<string>铂金</string>
+			<string>钯金</string>
+			<string>铜</string>
+			<string>铝</string>
+			<string>镍</string>
+        </array>
+	</dict>
+	<dict>
+		<key>齐鲁商品交易中心</key>
+		<array>
+			<string>现货重油</string>
+			<string>现货银</string>
+			<string>现货铝</string>
+			<string>现货铜</string>
+        </array>
+	</dict>
+</array>
+</plist>

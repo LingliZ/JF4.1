@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TPME version="1.0" security_no="$(security)" module_id="$(moduleid)">
+    <REQ id="$(id)" name="push_notification_set">
+        <THNO>$(thno)</THNO>
+        <COMMODITYID>$(commodityid)</COMMODITYID>
+        <OCFLAG>$(ocflag)</OCFLAG>
+        <ACCEPTFLAG>$(acceptflag)</ACCEPTFLAG>
+    </REQ>
+</TPME>

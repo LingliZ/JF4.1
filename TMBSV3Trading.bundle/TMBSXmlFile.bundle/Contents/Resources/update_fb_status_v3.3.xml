@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TPME version="1.0" security_no="$(security)" module_id="$(moduleid)">
+    <REQ id="$(id)" name="update_fb_status_v2">
+        <ID>$(seqid)</ID>
+        <TRADETYPE>$(tradetype)</TRADETYPE>
+        <COMMODITYID>$(commodityid)</COMMODITYID>
+        <BSFLAG>$(bsflag)</BSFLAG>
+        <QUANTITY>$(quantity)</QUANTITY>
+        <PRICE>$(price)</PRICE>
+        <ENVIRONMENTNAME>$(environmentname)</ENVIRONMENTNAME>
+        <FIRMID>$(firmid)</FIRMID>
+    </REQ>
+</TPME>

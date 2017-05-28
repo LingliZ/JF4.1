@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="TMBSProtocolVersion" security_no="$(security)" module_id="$(moduleid)">
+    <REQ id="$(id)" name="add_mb_question">
+         <VERSIONID>$(versionid)</VERSIONID>
+        <CUSTOMERNO>$(customerno)</CUSTOMERNO>
+        <PHONENO>$(phoneno)</PHONENO>
+        <DEVICE_TYPE>$(devicetype)</DEVICE_TYPE>
+        <TYPE>$(type)</TYPE>
+        <CONTENT>$(content)</CONTENT>
+        <MEMO>$(memo)</MEMO>
+    </REQ>
+</TPME>

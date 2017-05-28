@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TPME>
+    <REQ id="$(id)" name="get_institution_state">
+        <USER_ID>$(user_id)</USER_ID>
+        <SESSION_ID>$(session_id)</SESSION_ID>
+    </REQ>
+</TPME>
+

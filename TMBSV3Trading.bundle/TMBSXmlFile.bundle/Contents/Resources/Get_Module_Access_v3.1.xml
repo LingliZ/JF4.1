@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="TMBSProtocolVersion" security_no="$(security)">
+    <REQ id="$(id)" name="get_module_access">
+         <VERSIONID>$(versionid)</VERSIONID>
+        <MODULEID>$(moduleid)</MODULEID>
+        <TYPE>$(type)</TYPE>
+    </REQ>
+</TPME>

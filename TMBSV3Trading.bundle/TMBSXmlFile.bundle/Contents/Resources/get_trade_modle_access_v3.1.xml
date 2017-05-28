@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="TMBSProtocolVersion" security_no="$(security)">
+    <REQ id="$(id)" name="get_trade_module_access">
+         <VERSIONID>$(versionid)</VERSIONID>
+        <CUSTOMERNO>$(customerno)</CUSTOMERNO>
+        <TYPE>$(type)</TYPE>
+        <ENVIRONMENTID>$(evnid)</ENVIRONMENTID>
+        <MEMBERNO>$(memberno)</MEMBERNO>
+    </REQ>
+</TPME>

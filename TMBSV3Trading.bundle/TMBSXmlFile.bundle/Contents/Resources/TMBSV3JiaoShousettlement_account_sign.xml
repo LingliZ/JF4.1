@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="1.0">
+    <REQ id="$(id)" name="nae_account_sign">
+        <USER_ID>$(user_id)</USER_ID>
+        <SESSION_ID>$(session_id)</SESSION_ID>
+        <BANK_ID>$(bank_id)</BANK_ID>
+        <BANK_NM>$(bank_nm)</BANK_NM>
+        <RECV_ID>$(recv_id)</RECV_ID>
+        <RECV_NM>$(recv_nm)</RECV_NM>
+        <ADDR>$(addr)</ADDR>
+        <CON_NAME>$(con_name)</CON_NAME>
+        <CON_PHONE>$(con_phone)</CON_PHONE>
+        <EMAIL>$(email)</EMAIL>
+        <SAME_BANK>$(same_bank)</SAME_BANK>
+    </REQ>
+</TPME>

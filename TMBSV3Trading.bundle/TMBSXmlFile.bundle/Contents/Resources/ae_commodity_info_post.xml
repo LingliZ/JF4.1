@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="1.0">
+    <REQ id="$(id)" name="ae_commodity_info">
+        <USER_ID>$(login_id)</USER_ID>
+        <SESSION_ID>$(sid)</SESSION_ID>
+        <A_N></A_N>
+        <P_P></P_P>
+    </REQ>
+</TPME>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TPME>
+    <REQ id="$(id)" name="set_institution_state">
+        <USER_ID>$(user_id)</USER_ID>
+        <SESSION_ID>$(session_id)</SESSION_ID>
+        <RESULTLIST>
+            <REC>
+                <INSTITUTION_ID>$(institution_id)</INSTITUTION_ID>
+            </REC>
+        </RESULTLIST>
+    </REQ>
+</TPME>

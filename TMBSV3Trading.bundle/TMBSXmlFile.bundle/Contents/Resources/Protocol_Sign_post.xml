@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="1.8">
+<REQ id="$(id)" name="protocal_sign">
+<USER_ID>$(loginid)</USER_ID>
+<SESSION_ID>$(sid)</SESSION_ID>
+<PROTOCAL_ID>$(protocolId)</PROTOCAL_ID>
+<PROTOCAL_S>$(protocolS)</PROTOCAL_S>
+</REQ>
+</TPME>

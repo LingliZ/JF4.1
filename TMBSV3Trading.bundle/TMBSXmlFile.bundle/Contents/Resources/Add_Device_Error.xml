@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="3.0" security_no="$(security)"><REQ id="$(id)" name="add_device_error"><DEVICE_UNIQUE_ID>$(uniqueid)</DEVICE_UNIQUE_ID><DEVICE_BRAND>$(brand)</DEVICE_BRAND><DEVICE_MODEL>$(model)</DEVICE_MODEL><DEVICE_SOFT_TYPE>$(type)</DEVICE_SOFT_TYPE> <DEVICE_SOFT_VER>$(ver)</DEVICE_SOFT_VER><DEVICE_SCREEN_RESOLUTION>$(resolution)</DEVICE_SCREEN_RESOLUTION><MEMBERNO>$(memberno)</MEMBERNO><ERROR_CONTENT><![CDATA[$(error)]]></ERROR_CONTENT></REQ></TPME>

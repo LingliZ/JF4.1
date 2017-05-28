@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TPME version="TMBSProtocolVersion" security_no="$(security)" module_id="$(moduleid)">
+	<REQ id="$(id)" name="get_member_basic_info">
+		<VERSIONID>$(version)</VERSIONID>
+		<MEMBERNO>$(memberno)</MEMBERNO>
+	</REQ>
+</TPME>

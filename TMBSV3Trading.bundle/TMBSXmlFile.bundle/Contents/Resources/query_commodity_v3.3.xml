@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TPME version="1.0" security_no="$(security)" module_id="$(moduleid)">
+    <REQ id="$(id)" name="query_commodity_v2">
+        <COMMODITYID>$(commodityid)</COMMODITYID>
+    </REQ>
+</TPME>

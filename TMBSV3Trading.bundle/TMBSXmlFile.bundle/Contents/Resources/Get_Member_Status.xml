@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="TMBSProtocolVersion">
+    <REQ id="$(id)" name="get_member_status" security_no1="$(security_no1)" security_no2="$(security_no2)">
+        <CUSTOMERNO>$(customerno)</CUSTOMERNO>
+        <VERSIONID>$(version)</VERSIONID>
+        <MODULE>$(module)</MODULE>
+        <MEMBERNO>$(memberno)</MEMBERNO>
+        <ENVIRONMENTID>$(environmentid)</ENVIRONMENTID>
+    </REQ>
+</TPME>

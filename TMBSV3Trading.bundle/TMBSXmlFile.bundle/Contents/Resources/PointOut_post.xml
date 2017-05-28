@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+	<TPME version="TMBSProtocolVersion">
+		<REQ id="$(id)" name="set_loss_profit">
+<USER_ID>$(loginid)</USER_ID>
+<H_ID>$(hid)</H_ID>
+<COMMODITY_ID>$(gid)</COMMODITY_ID>
+<TY>$(ty)</TY>
+<STOP_LOSS>$(STOP_LOSS)</STOP_LOSS>
+<STOP_PROFIT>$(STOP_PROFIT)</STOP_PROFIT>
+<SESSION_ID>$(sid)</SESSION_ID>
+<A_N></A_N>
+<P_P></P_P>
+		</REQ>
+	</TPME>

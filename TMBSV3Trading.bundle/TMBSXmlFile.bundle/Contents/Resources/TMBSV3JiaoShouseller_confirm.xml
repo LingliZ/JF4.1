@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="1.0">
+    <REQ id="$(id)" name="seller_confirm">
+        <USER_ID>$(user_id)</USER_ID>
+        <SESSION_ID>$(session_id)</SESSION_ID>
+        <SETTLEMENT_ID>$(settlement_id)</SETTLEMENT_ID>
+    </REQ>
+</TPME>

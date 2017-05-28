@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TPME version="1.0">
+    <REQ id="$(id)" name="ae_customersettlement_search">
+        <USER_ID>$(user_id)</USER_ID>
+        <SESSION_ID>$(session_id)</SESSION_ID>
+        <ST>$(st)</ST>
+        <ET>$(et)</ET>
+        <S_NO>$(s_no)</S_NO>
+        <C_ID>$(c_id)</C_ID>
+        <LISTEDNAME>$(listedname)</LISTEDNAME>
+        <STARTNUM>$(startnum)</STARTNUM>
+        <RECCNT>$(reccnt)</RECCNT>
+        <SORTFLD>$(sortfld)</SORTFLD>
+        <ISDESC>$(isdesc)</ISDESC>
+    </REQ>
+</TPME>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+	<TPME version="TMBSProtocolVersion">
+		<REQ id="$(id)" name="withdraw_loss_profit">
+<USER_ID>$(userid)</USER_ID>
+<H_ID>$(hid)</H_ID>
+<COMMODITY_ID>$(coid)</COMMODITY_ID>
+<TYPE>$(type)</TYPE>
+<SESSION_ID>$(sid)</SESSION_ID>
+<A_N></A_N>
+<P_P></P_P>
+		</REQ>
+	</TPME>

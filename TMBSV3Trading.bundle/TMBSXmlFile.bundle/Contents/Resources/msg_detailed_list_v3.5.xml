@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TPME version="1.0" security_no="$(security)" module_id="$(moduleid)">
+    <REQ id="$(id)" name="msg_detailed_list">
+        <THNO>$(thno)</THNO>
+        <MSGTYPE>$(msgtype)</MSGTYPE>
+        <STARTNUM>$(startnum)</STARTNUM>
+        <ENDNUM>$(endnum)</ENDNUM>
+    </REQ>
+</TPME>

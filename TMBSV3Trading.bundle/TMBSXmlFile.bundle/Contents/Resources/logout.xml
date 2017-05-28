@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <TPME version="TMBSProtocolVersion">
+  <REQ id="$(id)" name="logoff">
+   <USER_ID>$(userid)</USER_ID>
+   <SESSION_ID>$(session)</SESSION_ID>
+  </REQ>
+ </TPME>

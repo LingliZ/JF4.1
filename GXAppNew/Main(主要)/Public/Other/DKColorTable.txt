@@ -1,0 +1,15 @@
+NORMAL        NIGHT
+#ffffff       #123456              home_price_backg
+#aaaaaa       #313131              home_
+
+#0000ff       #ffffff              TINT
+#000000       #ffffff              TEXT
+
+#ffffff       #444444              BAR
+#f0f0f0       #222222              HIGHLIGHTED
+#ffffff       GX211,55,51,1        ceshi
+
+
+
+
+  

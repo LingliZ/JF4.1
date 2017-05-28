@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="TMBSProtocolVersion" security_no="$(security)" module_id="$(moduleid)">
+    <REQ id="$(id)" name="logon_tiantongno">
+        <PHONENO>$(phoneno)</PHONENO>
+        <MEMBERNO>$(memberno)</MEMBERNO>
+        <QQ>$(qq)</QQ>
+        <MICBLOG>$(micblog)</MICBLOG>
+        <WECHAT>$(wechat)</WECHAT>
+        <LOGONTYPE>$(logontype)</LOGONTYPE>
+        <PASSWORD>$(password)</PASSWORD>
+        <HEADPIC>$(headpic)</HEADPIC>
+        <NICKNAME>$(nickname)</NICKNAME>
+    </REQ>
+</TPME>

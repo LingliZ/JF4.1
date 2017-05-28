@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TPME version="TMBSProtocolVersion" security_no="$(security)" module_id="$(moduleid)">
+<REQ id="$(id)" name="change_banding_phoneno">
+<TIANTONGNO>$(tiantongno)</TIANTONGNO>
+<PHONENO>$(phoneno)</PHONENO>
+<VERIFYCODE>$(verifycode)</VERIFYCODE>
+<SESSIONID>$(sessionid)</SESSIONID>
+</REQ>
+</TPME>

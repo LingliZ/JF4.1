@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>iconName</key>
+		<string>discoverL1</string>
+		<key>title</key>
+		<string>资讯</string>
+		<key>subTitle</key>
+		<string>优质专业的行业动态和时政评论</string>
+	</dict>
+	<dict>
+		<key>iconName</key>
+		<string>discoverL2</string>
+		<key>title</key>
+		<string>活动</string>
+		<key>subTitle</key>
+		<string>优惠活动惊喜连连</string>
+	</dict>
+	<dict>
+		<key>iconName</key>
+		<string>discoverL3</string>
+		<key>title</key>
+		<string>投资学院</string>
+		<key>subTitle</key>
+		<string>从小白到高手的进阶之路</string>
+	</dict>
+	<dict>
+		<key>iconName</key>
+		<string>discoverL4</string>
+		<key>title</key>
+		<string>精彩视频</string>
+		<key>subTitle</key>
+		<string>分析师往期节目精华</string>
+	</dict>
+</array>
+</plist>

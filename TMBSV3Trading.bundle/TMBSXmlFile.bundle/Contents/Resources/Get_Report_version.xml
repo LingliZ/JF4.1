@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME>
+    <REQ id="$(id)" name="get_report_version">
+        <USER_ID>$(login_id)</USER_ID>
+        <SESSION_ID>$(sid)</SESSION_ID>
+    </REQ>
+</TPME>

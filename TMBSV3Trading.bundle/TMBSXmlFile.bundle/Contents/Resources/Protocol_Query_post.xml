@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="1.8">
+<REQ id="$(id)" name="protocal_query">
+<USER_ID>$(loginid)</USER_ID>
+<SESSION_ID>$(sid)</SESSION_ID>
+</REQ>
+</TPME>

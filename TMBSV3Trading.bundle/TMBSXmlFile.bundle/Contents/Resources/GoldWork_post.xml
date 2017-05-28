@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+	<TPME version="TMBSProtocolVersion">
+		<REQ id="$(id)" name="money_transfer">
+<USER_ID>$(login_id)</USER_ID>
+<SESSION_ID>$(sid)</SESSION_ID>
+<BANK_ID>$(bank_id)</BANK_ID>
+<TYPE>$(in_out)</TYPE>
+<AMOUNT>$(amount)</AMOUNT>
+<PWD>$(pswd)</PWD>
+		</REQ>
+	</TPME>

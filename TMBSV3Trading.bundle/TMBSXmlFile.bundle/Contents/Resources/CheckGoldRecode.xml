@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+	<TPME version="TMBSProtocolVersion">
+		<REQ id="$(id)" name="money_iom_query">
+<USER_ID>$(login_id)</USER_ID>
+<SESSION_ID>$(sid)</SESSION_ID>
+<ST>$(s_time)</ST>
+<ET>$(e_time)</ET>
+<STARTNUM>$(start_num)</STARTNUM>
+<RECCNT>10000</RECCNT>
+<SORTFLD></SORTFLD>
+<ISDESC></ISDESC>
+		</REQ>
+	</TPME>

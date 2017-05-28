@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+	<TPME version="TMBSProtocolVersion">
+		<REQ id="$(id)" name="money_bankfunds">
+<USER_ID>$(login_id)</USER_ID>
+<SESSION_ID>$(sid)</SESSION_ID>
+<BANK_ID>$(bid)</BANK_ID>
+<PWD>$(pswd)</PWD>
+		</REQ>
+	</TPME>

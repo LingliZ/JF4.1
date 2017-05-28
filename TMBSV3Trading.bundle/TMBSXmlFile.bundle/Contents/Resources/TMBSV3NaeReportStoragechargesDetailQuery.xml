@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TPME version="1.0">
+    <REQ id="$(id)" name="ae_warehousefee_detail">
+        <USER_ID>$(user_id)</USER_ID>
+        <SESSION_ID>$(session_id)</SESSION_ID>
+        <ST>$(s_t)</ST>
+        <ET>$(e_t)</ET>
+        <S_NO>$(s_no)</S_NO>
+        <S_NA>$(s_na)</S_NA>
+        <M_T>$(m_t)</M_T>
+        <STARTNUM>$(startnum)</STARTNUM>
+        <RECCNT>$(reccnt)</RECCNT>
+        <SORTFLD>$(sortfld)</SORTFLD>
+        <ISDESC>$(isdesc)</ISDESC>
+    </REQ>
+</TPME>

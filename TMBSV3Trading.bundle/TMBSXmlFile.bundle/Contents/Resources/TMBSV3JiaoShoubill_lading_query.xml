@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="1.0">
+    <REQ id="$(id)" name="bill_lading_query">
+        <USER_ID>$(user_id)</USER_ID>
+        <SESSION_ID>$(session_id)</SESSION_ID>
+        <BL_ID>$(bl_id)</BL_ID>
+        <BL_STATUS>$(bl_status)</BL_STATUS>
+        <S_NAME>$(s_name)</S_NAME>
+        <E_S_TIME>$(e_s_time)</E_S_TIME>
+        <E_E_TIME>$(e_e_time)</E_E_TIME>
+        <A_S_TIME>$(a_s_time)</A_S_TIME>
+        <A_E_TIME>$(a_e_time)</A_E_TIME>
+        <STARTNUM>$(startnum)</STARTNUM>
+        <RECCNT>$(reccnt)</RECCNT>
+        <SORTFLD>$(sortfld)</SORTFLD>
+        <ISDESC>$(isdesc)</ISDESC> 
+
+    </REQ>
+</TPME>

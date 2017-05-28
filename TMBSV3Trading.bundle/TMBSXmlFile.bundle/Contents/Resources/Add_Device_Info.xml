@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="3.0">
+    <REQ id="$(id)" name="add_device_info" security_no="$(securityno)" security_no1="$(securityno1)" security_no2="$(securityno2)">
+        <DEVICE_UNIQUE_ID>$(uniqueid)</DEVICE_UNIQUE_ID>
+        <DEVICE_BRAND>$(brand)</DEVICE_BRAND>
+        <DEVICE_MODEL>$(model)</DEVICE_MODEL>
+        <DEVICE_SOFT_TYPE>$(type)</DEVICE_SOFT_TYPE>
+        <DEVICE_SOFT_VER>$(ver)</DEVICE_SOFT_VER>
+        <DEVICE_SCREEN_RESOLUTION>$(resolution)</DEVICE_SCREEN_RESOLUTION>
+        <IP>$(ip)</IP>
+    </REQ>
+</TPME>

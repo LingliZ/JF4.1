@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TPME version="1.0" security_no="$(security)" module_id="$(moduleid)">
+    <REQ id="$(id)" name="query_goodtrader_list_v2">
+        <COMMODITYID>$(commodityid)</COMMODITYID>
+        <RANKTYPE>$(ranktype)</RANKTYPE>
+        <STARTNUM>$(startnum)</STARTNUM>
+        <ENDNUM>$(endnum)</ENDNUM>
+    </REQ>
+</TPME>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="1.0">
+    <REQ id="$(id)" name="invoice_info_oper">
+        <USER_ID>$(user_id)</USER_ID>
+        <SESSION_ID>$(session_id)</SESSION_ID>
+        <OPER_T>$(oper_t)</OPER_T>
+        <IN_ID>$(in_id)</IN_ID>
+        <C_NA>$(c_na)</C_NA>
+        <TIN>$(tin)</TIN>
+        <ADDR>$(addr)</ADDR>
+        <PHONE>$(phone)</PHONE>
+        <BANK>$(bank)</BANK>
+        <ACC>$(acc)</ACC>
+    </REQ>
+</TPME>

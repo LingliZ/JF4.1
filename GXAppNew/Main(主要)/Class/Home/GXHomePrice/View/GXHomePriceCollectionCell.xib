@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="GXHomePriceCollectionCell">
+            <rect key="frame" x="0.0" y="0.0" width="404" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="404" height="200"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8XC-go-ajV">
+                        <rect key="frame" x="10" y="15" width="384" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="Hzl-Wj-rBb"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2IY-EU-O6B">
+                        <rect key="frame" x="10" y="34" width="384" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="k0O-Fv-oPk"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" red="0.098039215686274508" green="0.68235294117647061" blue="0.31764705882352939" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IVm-sf-CyT">
+                        <rect key="frame" x="0.0" y="57" width="404" height="13"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="13" id="3gX-NX-aBW"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.098039215686274508" green="0.68235294117647061" blue="0.31764705882352939" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="8XC-go-ajV" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="DAH-dq-Zve"/>
+                <constraint firstItem="2IY-EU-O6B" firstAttribute="top" secondItem="8XC-go-ajV" secondAttribute="bottom" constant="5" id="DZm-Zd-yXk"/>
+                <constraint firstAttribute="trailing" secondItem="8XC-go-ajV" secondAttribute="trailing" constant="10" id="Jvx-b2-a52"/>
+                <constraint firstAttribute="trailing" secondItem="IVm-sf-CyT" secondAttribute="trailing" id="WXo-Rd-IDM"/>
+                <constraint firstItem="IVm-sf-CyT" firstAttribute="top" secondItem="2IY-EU-O6B" secondAttribute="bottom" constant="5" id="dUU-mT-pcO"/>
+                <constraint firstAttribute="trailing" secondItem="8XC-go-ajV" secondAttribute="trailing" constant="10" id="geK-Qd-wra"/>
+                <constraint firstAttribute="trailing" secondItem="2IY-EU-O6B" secondAttribute="trailing" constant="10" id="is2-9t-7uN"/>
+                <constraint firstItem="IVm-sf-CyT" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="nL2-AE-cgz"/>
+                <constraint firstItem="2IY-EU-O6B" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="rhI-Wc-8hd"/>
+                <constraint firstItem="8XC-go-ajV" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="tLH-HZ-NMM"/>
+                <constraint firstItem="8XC-go-ajV" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="15" id="ztl-sO-FTl"/>
+            </constraints>
+            <size key="customSize" width="404" height="200"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="4"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="geK-Qd-wra"/>
+                    <exclude reference="tLH-HZ-NMM"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="nameLabel" destination="8XC-go-ajV" id="L6a-Cp-qSu"/>
+                <outlet property="priceLabel" destination="2IY-EU-O6B" id="Z11-Vt-FB7"/>
+                <outlet property="rateLabel" destination="IVm-sf-CyT" id="E2W-Vj-0bP"/>
+                <outlet property="top1Line1" destination="ztl-sO-FTl" id="Tny-xt-Xt9"/>
+                <outlet property="top1Line2" destination="DZm-Zd-yXk" id="mEQ-0G-YYm"/>
+            </connections>
+            <point key="canvasLocation" x="-82" y="9"/>
+        </collectionViewCell>
+    </objects>
+</document>

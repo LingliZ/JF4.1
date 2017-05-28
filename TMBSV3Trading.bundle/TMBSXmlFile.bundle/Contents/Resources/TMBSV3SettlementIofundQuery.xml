@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TPME version="1.0">
+    <REQ id="$(id)" name="settlement_iofund_query">
+        <USER_ID>$(user_id)</USER_ID>
+        <SESSION_ID>$(session_id)</SESSION_ID>
+        <BANK_ID>$(bank_id)</BANK_ID>
+        <START_DATE>$(start_date)</START_DATE>
+        <END_DATE>$(end_date)</END_DATE>
+        <START_COUNT>$(start_count)</START_COUNT>
+        <PAGE_NUM>$(page_num)</PAGE_NUM>
+    </REQ>
+</TPME>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="3.0">
+<REQ id="$(id)" name="get_environmental_link" security_no1="$(security1)" security_no2="$(security2)" >
+</REQ>
+</TPME>

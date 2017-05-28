@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="3.0">
+    <REQ id="$(id)" name="unbind_phone">
+        <USER_ID>$(userid)</USER_ID>
+        <VALIDCODE>$(validcode)</VALIDCODE>
+        <OPERATEIP>$(ip)</OPERATEIP>
+        <MobileOrPc>M</MobileOrPc>
+    </REQ>
+</TPME>

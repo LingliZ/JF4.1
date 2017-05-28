@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TPME version="TMBSProtocolVersion" security_no="$(security)" module_id="$(moduleid)">
+    <REQ id="$(id)" name="query_my_goodtrader_v2">
+        <THNO>$(thno)</THNO>
+        <STARTNUM>$(startnum)</STARTNUM>
+        <ENDNUM>$(endnum)</ENDNUM>
+        
+    </REQ>
+</TPME>

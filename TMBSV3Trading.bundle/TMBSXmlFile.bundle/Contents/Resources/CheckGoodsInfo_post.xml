@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding = "UTF-8"?><TPME version="TMBSProtocolVersion">    <REQ id="$(id)" name="commodity_query">        <USER_ID>$(login_id)</USER_ID>        <COMMODITY_ID>$(coid)</COMMODITY_ID>        <SESSION_ID>$(session_id)</SESSION_ID>        <A_N></A_N>        <P_P></P_P>    </REQ></TPME>

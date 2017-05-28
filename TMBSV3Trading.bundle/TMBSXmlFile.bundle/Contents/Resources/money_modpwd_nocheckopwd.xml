@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding ="UTF-8"?>
+<TPME version="1.6">
+    <REQ id="$(id)" name="money_modpwd_nocheckopwd">
+        <USER_ID>$(userid)</USER_ID>
+        <VALIDCODE>$(validcode)</VALIDCODE>
+        <NPWD>$(newpassword)</NPWD>
+        <MobileOrPc>M</MobileOrPc>
+    </REQ>
+</TPME>

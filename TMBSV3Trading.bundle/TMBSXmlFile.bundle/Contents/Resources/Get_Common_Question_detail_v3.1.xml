@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="TMBSProtocolVersion" security_no="$(security)" module_id="$(moduleid)">
+    <REQ id="$(id)" name="get_common_question_detail">
+         <ID>$(questionid)</ID>
+    </REQ>
+</TPME>

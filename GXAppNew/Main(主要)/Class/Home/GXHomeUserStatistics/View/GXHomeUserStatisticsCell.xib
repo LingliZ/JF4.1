@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="180" id="KGk-i7-Jjw" customClass="GXHomeUserStatisticsCell">
+            <rect key="frame" x="0.0" y="0.0" width="451" height="180"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="451" height="179.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yfQ-bA-tfc">
+                        <rect key="frame" x="0.0" y="10" width="451" height="169.5"/>
+                        <subviews>
+                            <button opaque="NO" tag="9527" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="87c-Nf-Lay">
+                                <rect key="frame" x="0.0" y="0.0" width="113" height="169.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="品牌优势" image="brand_advantage_pic">
+                                    <color key="titleColor" red="0.34509803921568627" green="0.46274509803921571" blue="0.74117647058823533" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="homeBtnDidClickAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="5Za-Dg-cuX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="9528" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W56-Qt-tjf">
+                                <rect key="frame" x="113" y="0.0" width="112.5" height="169.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="帮助中心" image="profit_ranking_pic">
+                                    <color key="titleColor" red="0.34509803921568627" green="0.46274509803921571" blue="0.74117647058823533" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="homeBtnDidClickAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="F00-r7-Xxm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="9529" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IL0-aB-YRP">
+                                <rect key="frame" x="225.5" y="0.0" width="113" height="169.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="行情中心" image="open_account_pic">
+                                    <color key="titleColor" red="0.34509803921568627" green="0.46274509803921571" blue="0.74117647058823533" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="homeBtnDidClickAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ncc-1r-egM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="9530" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Lo-Eh-JPP">
+                                <rect key="frame" x="338.5" y="0.0" width="112.5" height="169.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="在线客服" image="online_service_pic">
+                                    <color key="titleColor" red="0.34509803921568627" green="0.46274509803921571" blue="0.74117647058823533" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="homeBtnDidClickAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="7vJ-LK-LlZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="87c-Nf-Lay" firstAttribute="leading" secondItem="yfQ-bA-tfc" secondAttribute="leading" id="3hx-Xq-cl0"/>
+                            <constraint firstItem="IL0-aB-YRP" firstAttribute="leading" secondItem="W56-Qt-tjf" secondAttribute="trailing" id="5Nk-ct-Gto"/>
+                            <constraint firstAttribute="bottom" secondItem="87c-Nf-Lay" secondAttribute="bottom" id="8JY-IS-ONi"/>
+                            <constraint firstItem="1Lo-Eh-JPP" firstAttribute="leading" secondItem="IL0-aB-YRP" secondAttribute="trailing" id="Aoy-hc-Wfl"/>
+                            <constraint firstAttribute="trailing" secondItem="1Lo-Eh-JPP" secondAttribute="trailing" id="Avs-3d-IMd"/>
+                            <constraint firstItem="1Lo-Eh-JPP" firstAttribute="width" secondItem="87c-Nf-Lay" secondAttribute="width" id="CA7-In-JIP"/>
+                            <constraint firstItem="W56-Qt-tjf" firstAttribute="leading" secondItem="87c-Nf-Lay" secondAttribute="trailing" id="Er3-jf-Uny"/>
+                            <constraint firstItem="W56-Qt-tjf" firstAttribute="top" secondItem="yfQ-bA-tfc" secondAttribute="top" id="JaD-nB-Zti"/>
+                            <constraint firstAttribute="bottom" secondItem="1Lo-Eh-JPP" secondAttribute="bottom" id="Jre-27-ddh"/>
+                            <constraint firstAttribute="bottom" secondItem="IL0-aB-YRP" secondAttribute="bottom" id="aDW-U3-oD8"/>
+                            <constraint firstItem="1Lo-Eh-JPP" firstAttribute="top" secondItem="yfQ-bA-tfc" secondAttribute="top" id="fV0-9i-deU"/>
+                            <constraint firstItem="W56-Qt-tjf" firstAttribute="width" secondItem="87c-Nf-Lay" secondAttribute="width" id="heH-Fu-WYF"/>
+                            <constraint firstItem="87c-Nf-Lay" firstAttribute="top" secondItem="yfQ-bA-tfc" secondAttribute="top" id="ijV-ie-CTe"/>
+                            <constraint firstItem="IL0-aB-YRP" firstAttribute="width" secondItem="87c-Nf-Lay" secondAttribute="width" id="lMA-QV-w3m"/>
+                            <constraint firstAttribute="bottom" secondItem="W56-Qt-tjf" secondAttribute="bottom" id="odz-j1-AUH"/>
+                            <constraint firstItem="IL0-aB-YRP" firstAttribute="top" secondItem="yfQ-bA-tfc" secondAttribute="top" id="pjJ-H1-NdB"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="yfQ-bA-tfc" secondAttribute="bottom" id="Qst-m9-GaE"/>
+                    <constraint firstItem="yfQ-bA-tfc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="UCG-Oq-9i4"/>
+                    <constraint firstItem="yfQ-bA-tfc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="YOa-UV-zuC"/>
+                    <constraint firstAttribute="trailing" secondItem="yfQ-bA-tfc" secondAttribute="trailing" id="i3E-CJ-OJK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="backGroundView" destination="yfQ-bA-tfc" id="Uuc-ya-Bfi"/>
+                <outlet property="homeBtn1" destination="87c-Nf-Lay" id="7Eg-27-5Kg"/>
+                <outlet property="homeBtn2" destination="W56-Qt-tjf" id="GM9-zn-igd"/>
+                <outlet property="homeBtn3" destination="IL0-aB-YRP" id="DQ1-qG-WXz"/>
+                <outlet property="homeBtn4" destination="1Lo-Eh-JPP" id="8my-PX-mwk"/>
+            </connections>
+            <point key="canvasLocation" x="-162.5" y="-70"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="brand_advantage_pic" width="28" height="28"/>
+        <image name="online_service_pic" width="28" height="28"/>
+        <image name="open_account_pic" width="28" height="28"/>
+        <image name="profit_ranking_pic" width="28" height="28"/>
+    </resources>
+</document>

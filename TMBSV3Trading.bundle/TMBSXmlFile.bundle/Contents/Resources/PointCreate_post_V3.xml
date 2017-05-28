@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="TMBSProtocolVersion">
+<REQ id="$(id)" name="order_x">
+<USER_ID>$(loginid)</USER_ID>
+<LISTING_ID>$(goodsid)</LISTING_ID>
+<PRICE>$(price)</PRICE>
+<QTY>$(num)</QTY>
+<STOP_LOSS>$(stoploss)</STOP_LOSS>
+<STOP_PROFIT>$(stopprofit)</STOP_PROFIT>
+<VALIDITY_TYPE>0</VALIDITY_TYPE>
+<SESSION_ID>$(sessionid)</SESSION_ID>
+<A_N></A_N>
+<P_P></P_P>
+</REQ>
+</TPME>

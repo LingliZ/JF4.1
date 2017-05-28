@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TPME version="1.0" security_no="$(security)" module_id="$(moduleid)">
+    <REQ id="$(id)" name="add_msg_device">
+        <DEVICEID>$(deviceid)</DEVICEID>
+        <THNO>$(thno)</THNO>
+        <DEVICETYPE>$(devicetype)</DEVICETYPE>
+        <OPENTYPE>$(opentype)</OPENTYPE>
+    </REQ>
+</TPME>

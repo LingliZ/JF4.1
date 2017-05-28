@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="1.0">
+    <REQ id="$(id)" name="warehouse_receipt_query">
+        <USER_ID>$(user_id)</USER_ID>
+        <SESSION_ID>$(session_id)</SESSION_ID>
+        <RECEIPT_ID>$(receipt_id)</RECEIPT_ID>
+        <COMMODITY_TYPE>$(commodity_type)</COMMODITY_TYPE>
+        <STORAGE_NAME>$(storage_name)</STORAGE_NAME>
+        <RECEIPT_STATUS>$(receipt_status)</RECEIPT_STATUS>
+        <STARTNUM>$(startnum)</STARTNUM>
+        <RECCNT>$(reccnt)</RECCNT>
+        <SORTFLD>$(sortfld)</SORTFLD>
+        <ISDESC>$(isdesc)</ISDESC>
+        
+    </REQ>
+</TPME>

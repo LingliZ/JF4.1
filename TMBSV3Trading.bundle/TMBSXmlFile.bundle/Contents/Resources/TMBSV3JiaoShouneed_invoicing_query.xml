@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="1.0">
+    <REQ id="$(id)" name="need_invoicing_query">
+        <USER_ID>$(user_id)</USER_ID>
+        <SESSION_ID>$(session_id)</SESSION_ID>
+        <BUY_ID>$(buy_id)</BUY_ID>
+        <BUY_NAME>$(buy_name)</BUY_NAME>
+        <APP_START_TIME>$(app_start_time)</APP_START_TIME>
+        <APP_END_TIME>$(app_end_time)</APP_END_TIME>
+
+    </REQ>
+</TPME>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="TMBSProtocolVersion" security_no="$(security)" module_id="$(moduleid)">
+<REQ id="$(id)" name="logout_tiantongno">
+<TIANTONGNO>$(tiantongno)</TIANTONGNO>
+<SESSIONID>$(sessionid)</SESSIONID>
+</REQ>
+</TPME>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="TMBSProtocolVersion">
+    <REQ id="$(id)" name="notice_content_query_v1_1">
+        <USER_ID>$(login_id)</USER_ID>
+        <SESSION_ID>$(sid)</SESSION_ID>
+        <NOTICE_ID>$(notice_id)</NOTICE_ID>
+        <TYPE>$(notice_type)</TYPE>
+        <EFFECTIVE>$(effective)</EFFECTIVE>
+    </REQ>
+</TPME>

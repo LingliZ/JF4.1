@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="TMBSProtocolVersion" security_no="$(security)">
+    <REQ id="$(id)" name="add_mb_client_trail">
+        <DEVICE_UNIQUE_ID>$(uuid)</DEVICE_UNIQUE_ID>
+        <CUSTOMERNO>$(customerno)</CUSTOMERNO>
+        <DEVICE_TYPE>ios</DEVICE_TYPE>
+        <MODULEID>$(moduleid)</MODULEID>
+        <BUTTONID>$(buttonid)</BUTTONID>
+        <THNO>$(thno)</THNO>
+    </REQ>
+</TPME>

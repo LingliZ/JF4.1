@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TPME version="1.6">
+    <REQ id="$(id)" name="order_s">
+        <USER_ID>$(loginid)</USER_ID>
+        <LISTING_ID>$(goodsid)</LISTING_ID>
+        <PRICE>$(price)</PRICE>
+        <QTY>$(number)</QTY>
+        <SETTLE_BASIS>$(tradeType)</SETTLE_BASIS>
+        <DOT_DIFF>$(diff)</DOT_DIFF>
+        <CLOSEMODE>$(closeMode)</CLOSEMODE>
+        <HOLDING_ID>$(holdId)</HOLDING_ID>
+        <IS_BACK_ORDER>$(isback)</IS_BACK_ORDER>
+        <BACK_ORDER_QTY>$(backOrderQty)</BACK_ORDER_QTY>
+        <SESSION_ID>$(sessionid)</SESSION_ID>
+        <ALLOWPART>$(allowpart)</ALLOWPART>
+        <A_N></A_N>
+        <P_P></P_P>
+		</REQ>
+</TPME>

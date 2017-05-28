@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GXNoviceTutorialController">
+            <connections>
+                <outlet property="btnH" destination="7AP-fV-nxg" id="l7i-Uv-mi2"/>
+                <outlet property="btnW" destination="Dfd-c4-Wee" id="uMQ-2H-vMF"/>
+                <outlet property="btnX" destination="a6l-dh-Q7j" id="Thv-od-TUw"/>
+                <outlet property="btnY" destination="Klc-HP-CfU" id="e0H-1A-FxT"/>
+                <outlet property="checkBtn" destination="A3S-DC-041" id="rxB-RT-mlC"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A3S-DC-041" customClass="NoviceButton">
+                    <rect key="frame" x="120" y="233" width="100" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="7AP-fV-nxg"/>
+                        <constraint firstAttribute="width" constant="100" id="Dfd-c4-Wee"/>
+                    </constraints>
+                    <connections>
+                        <action selector="didClickBtnAction:" destination="-1" eventType="touchUpInside" id="7r9-qf-2CW"/>
+                    </connections>
+                </button>
+                <view alpha="0.75" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ueo-zZ-XKH">
+                    <rect key="frame" x="0.0" y="283" width="375" height="384"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view alpha="0.75" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gzC-Nt-hvi">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="233"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view alpha="0.75" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AgN-NT-6GS">
+                    <rect key="frame" x="220" y="233" width="155" height="50"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view alpha="0.75" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wsb-xC-cou">
+                    <rect key="frame" x="0.0" y="233" width="120" height="50"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="AgN-NT-6GS" firstAttribute="bottom" secondItem="A3S-DC-041" secondAttribute="bottom" id="1uU-rN-90n"/>
+                <constraint firstItem="AgN-NT-6GS" firstAttribute="top" secondItem="A3S-DC-041" secondAttribute="top" id="3F9-D5-9o2"/>
+                <constraint firstItem="A3S-DC-041" firstAttribute="top" secondItem="gzC-Nt-hvi" secondAttribute="bottom" id="8Pe-Ls-zQw"/>
+                <constraint firstItem="gzC-Nt-hvi" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="A9q-30-gnW"/>
+                <constraint firstItem="Ueo-zZ-XKH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="IRz-qu-H3G"/>
+                <constraint firstItem="A3S-DC-041" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="233" id="Klc-HP-CfU"/>
+                <constraint firstItem="AgN-NT-6GS" firstAttribute="leading" secondItem="A3S-DC-041" secondAttribute="trailing" id="N2J-mI-VLj"/>
+                <constraint firstAttribute="trailing" secondItem="AgN-NT-6GS" secondAttribute="trailing" id="PEo-5a-ajh"/>
+                <constraint firstAttribute="trailing" secondItem="Ueo-zZ-XKH" secondAttribute="trailing" id="TAM-ej-zpi"/>
+                <constraint firstItem="Wsb-xC-cou" firstAttribute="top" secondItem="A3S-DC-041" secondAttribute="top" id="VMJ-PG-rhs"/>
+                <constraint firstItem="Wsb-xC-cou" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Y0L-VK-IcV"/>
+                <constraint firstItem="A3S-DC-041" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="120" id="a6l-dh-Q7j"/>
+                <constraint firstItem="gzC-Nt-hvi" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="doa-nG-Hh2"/>
+                <constraint firstItem="Ueo-zZ-XKH" firstAttribute="top" secondItem="A3S-DC-041" secondAttribute="bottom" id="kFG-hb-G4v"/>
+                <constraint firstAttribute="bottom" secondItem="Ueo-zZ-XKH" secondAttribute="bottom" id="llk-1E-TU9"/>
+                <constraint firstAttribute="trailing" secondItem="gzC-Nt-hvi" secondAttribute="trailing" id="n1h-83-RIB"/>
+                <constraint firstItem="Wsb-xC-cou" firstAttribute="bottom" secondItem="A3S-DC-041" secondAttribute="bottom" id="xqs-ff-1Zf"/>
+                <constraint firstItem="A3S-DC-041" firstAttribute="leading" secondItem="Wsb-xC-cou" secondAttribute="trailing" id="z97-rO-NRb"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+</document>

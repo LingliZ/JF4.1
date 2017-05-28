@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TPME version="1.0">
+    <REQ id="$(id)" name="ae_customer_fund_stat">
+        <USER_ID>$(user_id)</USER_ID>
+        <SESSION_ID>$(session_id)</SESSION_ID>
+        <ST>$(st)</ST>
+        <ET>$(et)</ET>
+        <STARTNUM>$(startnum)</STARTNUM>
+        <RECCNT>$(reccnt)</RECCNT>
+        <SORTFLD>$(sortfld)</SORTFLD>
+        <ISDESC>$(isdesc)</ISDESC>
+    </REQ>
+</TPME>

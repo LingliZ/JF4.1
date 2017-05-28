@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="1.0">
+    <REQ id="$(id)" name="settlement_payment_query">
+        <USER_ID>$(user_id)</USER_ID>
+        <SESSION_ID>$(session_id)</SESSION_ID>
+        <SE_ID>$(se_id)</SE_ID>
+        <COM_ID>$(com_id)</COM_ID>
+        <FLAG>$(flag)</FLAG>
+        <SELLER_NO>$(seller_no)</SELLER_NO>
+        <SELLER_NA>$(seller_na)</SELLER_NA>
+        <D_S_TIME>$(d_s_time)</D_S_TIME>
+        <D_E_TIME>$(d_e_time)</D_E_TIME>
+    </REQ>
+</TPME>

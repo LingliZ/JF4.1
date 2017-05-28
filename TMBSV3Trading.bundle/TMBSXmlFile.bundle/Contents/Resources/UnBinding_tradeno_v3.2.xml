@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="TMBSProtocolVersion" security_no="$(security)" module_id="$(moduleid)">
+<REQ id="$(id)" name="unbinding_tradeno">
+<TIANTONGNO>$(tiantongno)</TIANTONGNO>
+<ENVIRONMENTID>$(environmentid)</ENVIRONMENTID>
+<TRADENO>$(tradeno)</TRADENO>
+<SESSIONID>$(sessionid)</SESSIONID>
+</REQ>
+</TPME>

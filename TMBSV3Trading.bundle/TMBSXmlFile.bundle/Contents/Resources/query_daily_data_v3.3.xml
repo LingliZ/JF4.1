@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TPME version="1.0" security_no="$(security)" module_id="$(moduleid)">
+    <REQ id="$(id)" name="query_daily_data_v2">
+        <GOODTRADERID>$(goodtraderid)</GOODTRADERID>
+        <RANKTYPE>$(ranktype)</RANKTYPE>
+        <RANKTIME>$(ranktime)</RANKTIME>
+    </REQ>
+</TPME>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TPME version="1.0" security_no="$(security)" module_id="$(moduleid)">
+    <REQ id="$(id)" name="unorbundling_qqno">
+        <THNO>$(thno)</THNO>
+        <TYPE>$(type)</TYPE>
+        <BANDNO >$(bandno)</BANDNO>
+        <NICKNAME>$(nickname)</NICKNAME>
+        <UNORBAND>$(unorband)</UNORBAND>
+    </REQ>
+</TPME>

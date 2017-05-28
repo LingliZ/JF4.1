@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>XAGUSDV3</string>
+	<string>PtV3</string>
+	<string>PdV3</string>
+	<string>CuV3</string>
+	<string>NiV3</string>
+	<string>AlV3</string>
+	<string>OIL10</string>
+	<string>LSAG15</string>
+	<string>LSAL</string>
+	<string>LSCU</string>
+</array>
+</plist>

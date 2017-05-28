@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="TMBSProtocolVersion">
+    <REQ id="$(id)" name="report_delisting_hold_query">
+        <USER_ID>$(login_id)</USER_ID>
+        <SESSION_ID>$(sid)</SESSION_ID>
+        <ST>$(s_time)</ST>
+        <ET>$(e_time)</ET>
+        <STARTNUM>$(startnum)</STARTNUM>
+        <RECCNT></RECCNT>
+        <SORTFLD></SORTFLD>
+        <ISDESC></ISDESC>
+    </REQ>
+</TPME>

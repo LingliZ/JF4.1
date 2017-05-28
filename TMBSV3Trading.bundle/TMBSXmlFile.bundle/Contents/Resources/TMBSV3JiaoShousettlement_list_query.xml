@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<TPME version="1.0">
+    <REQ id="$(id)" name="settlement_list_query">
+        <USER_ID>$(user_id)</USER_ID>
+        <SESSION_ID>$(session_id)</SESSION_ID>
+        <SETTLEMENT_ID>$(settlement_id)</SETTLEMENT_ID>
+        <COMMODITY_ID>$(commodity_id)</COMMODITY_ID>
+        <START_TIME>$(start_time)</START_TIME>
+        <END_TIME>$(end_time)</END_TIME>
+        <STARTNUM>$(startnum)</STARTNUM>
+        <RECCNT>$(reccnt)</RECCNT>
+        <SORTFLD>$(sortfld)</SORTFLD>
+        <ISDESC>$(isdesc)</ISDESC>
+    </REQ>
+</TPME>
